@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // import './App.css'
-import Home from './Components/Home'
+import Hero from './Components/Hero'
 import Info from './Components/Info'
 import Episodes from './Components/Episodes'
 import Videos from './Components/Videos'
@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <>
-    <Home/>
+    <Hero/>
     <Info/>
     <Episodes/>
     <Videos/>
