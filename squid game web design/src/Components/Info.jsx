@@ -11,15 +11,14 @@ export default function Info() {
           <ul>
             <li>2021</li>
             <li>18+</li>
-            <li>1 Season</li>
+            <li>Season 1</li>
             <li>TV Dramas</li>
           </ul>
         </div>
         <div className="details">
           <p className="border-top">
             Hundreds of cash-strapped players accept a strange invitation to
-            compete in children's games. Inside, a tempting prize awaits — with
-            deadly high stakes.
+            
           </p>
           <div className="border-top">
             <p>Starring</p>
