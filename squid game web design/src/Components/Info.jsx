@@ -3,7 +3,9 @@ import styled from "styled-components";
 import { blue } from "../utils/colors";
 
 export default function Info() {
+
   return (
+
     <Section id="info" className="defaultMargin">
       <div className="square"></div>
       <div className="info">
@@ -17,7 +19,7 @@ export default function Info() {
         </div>
         <div className="details">
           <p className="border-top">
-            Hundreds of cash-strapped players accept a strange invitation to
+           
             
           </p>
           <div className="border-top">
@@ -31,7 +33,7 @@ export default function Info() {
           <div className="border-top">
             <p>Creators</p>
             <ul>
-              <li>Hwang Dong-hyuk</li>
+              
             </ul>
           </div>
         </div>
