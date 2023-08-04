@@ -25,9 +25,7 @@ export default function Info() {
           <div className="border-top">
             <p>Starring</p>
             <ul>
-              <li>Lee Jung-jae</li>
-              <li>Park Hae-soo</li>
-              <li>Wi Ha-jun</li>
+              
             </ul>
           </div>
           <div className="border-top">
@@ -82,11 +80,7 @@ const Section = styled.div`
         width: 60%;
       }
       div {
-        width: 60%;
-        display: flex;
-        ul {
-          list-style-type: none;
-        }
+       
       }
     }
   }
@@ -103,14 +97,9 @@ const Section = styled.div`
           }
         }
       }
-      .details {
-        p,div {
-          width: 100%;
-      }
+      
       div {
-        p {
-          width: 50%;
-        }
+        
       }
 
     }
