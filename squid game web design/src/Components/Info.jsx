@@ -10,12 +10,7 @@ export default function Info() {
       <div className="square"></div>
       <div className="info">
         <div className="title">
-          <ul>
-            <li>2021</li>
-            <li>18+</li>
-            <li>Season 1</li>
-            <li>TV Dramas</li>
-          </ul>
+          
         </div>
         <div className="details">
           <p className="border-top">
@@ -23,16 +18,10 @@ export default function Info() {
             
           </p>
           <div className="border-top">
-            <p>Starring</p>
-            <ul>
-              
-            </ul>
+            
           </div>
           <div className="border-top">
-            <p>Creators</p>
-            <ul>
-              
-            </ul>
+            
           </div>
         </div>
       </div>
