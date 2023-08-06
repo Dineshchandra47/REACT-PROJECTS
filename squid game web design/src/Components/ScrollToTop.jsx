@@ -48,7 +48,7 @@ const Wrapper = styled.section`
     width: 4rem;
     height: 4rem;
     color: #fff;
-    background-color: #7148FC;
+    background-color:#0A3342;
     box-shadow: #D6DEE7;
     border-radius: 50%;
     position: fixed;
