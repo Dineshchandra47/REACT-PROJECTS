@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { blue } from "../utlis/colors";
+import { blue } from "../utlis/colors.jsx";
+
 export default function Info() {
   return (
     <Section id="info" className="defaultMargin">

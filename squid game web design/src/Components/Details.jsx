@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import details from "../assets/DETAILS.png";
-import { fontLightColor, blue } from "../utlis/colors";
+import { fontLightColor, blue } from "../utlis/colors.jsx";
 
 export default function Details() {
   return (

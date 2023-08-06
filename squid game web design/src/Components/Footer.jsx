@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { fontLightColor } from "../utlis/colors";
+import { fontLightColor } from "../utlis/colors.jsx";
 export default function Footer() {
   return (
     <FooterContainer className="defaultMargin">

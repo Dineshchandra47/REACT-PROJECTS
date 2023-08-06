@@ -10,7 +10,7 @@ import Episode7 from "../assets/EPISODE7.jpg";
 import Episode8 from "../assets/EPISODE8.jpg";
 import Episode9 from "../assets/EPISODE9.jpg";
 import EpisodesImage from "../assets/EPISODES.png";
-import { blue, pink, backgroundColor } from "../utlis/colors";
+import { blue } from "../utlis/colors.jsx";
 
 export default function Episodes() {
   const episodesData = [
