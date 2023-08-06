@@ -1,68 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;1,500&display=swap');
-
-
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Be Vietnam Pro', sans-serif;
-  background-color: #14242a;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #132228;
 }
 
-.defaultMargin{
-  margin: 5vh 0;
+.defaultMargin {
+  padding: 5vh 0;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   background-color: white;
   width: 0.3rem;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #f72585;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .circle,
+  .triangle,
+  .square {
+    display: none !important;
   }
 }
