@@ -1,27 +1,38 @@
 import React from "react";
 import styled from "styled-components";
-import { blue } from "../utils/colors";
-
+import { blue } from "../utlis/colors";
 export default function Info() {
-
   return (
-
     <Section id="info" className="defaultMargin">
       <div className="square"></div>
       <div className="info">
         <div className="title">
-          
+          <ul>
+            <li>2021</li>
+            <li>18+</li>
+            <li>Season 1</li>
+            <li>TV Dramas</li>
+          </ul>
         </div>
         <div className="details">
           <p className="border-top">
-           
-            
+            Hundreds of cash-strapped players accept a strange invitation to
+            compete in children &apos s  games. Inside, a tempting prize awaits — with
+            deadly high stakes.
           </p>
           <div className="border-top">
-            
+            <p>Starring</p>
+            <ul>
+              <li>Lee Jung-jae</li>
+              <li>Park Hae-soo</li>
+              <li>Wi Ha-jun</li>
+            </ul>
           </div>
           <div className="border-top">
-            
+            <p>Creators</p>
+            <ul>
+              <li>Hwang Dong-hyuk</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -69,7 +80,11 @@ const Section = styled.div`
         width: 60%;
       }
       div {
-       
+        width: 60%;
+        display: flex;
+        ul {
+          list-style-type: none;
+        }
       }
     }
   }
@@ -86,11 +101,16 @@ const Section = styled.div`
           }
         }
       }
-      
+      .details {
+        p,div {
+          width: 100%;
+      }
       div {
-        
+        p {
+          width: 50%;
+        }
       }
 
     }
-  }}
-`
+  }
+`;
