@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { FaArrowUp } from "react-icons/fa";
 
+
 const Scroll = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -44,6 +45,7 @@ const Wrapper = styled.section`
   position: relative;
 
   .top-btn {
+
     font-size: 2.4rem;
     width: 4rem;
     height: 4rem;
