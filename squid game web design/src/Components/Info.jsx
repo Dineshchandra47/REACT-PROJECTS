@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { blue } from "../utlis/colors.jsx";
+import { blue } from "../utlis/Colors.jsx";
 
 export default function Info() {
   return (
@@ -18,8 +18,8 @@ export default function Info() {
         <div className="details">
           <p className="border-top">
             Hundreds of cash-strapped players accept a strange invitation to
-            compete in children &apos s  games. Inside, a tempting prize awaits — with
-            deadly high stakes.
+            compete in children &apos s games. Inside, a tempting prize awaits —
+            with deadly high stakes.
           </p>
           <div className="border-top">
             <p>Starring</p>

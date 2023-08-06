@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import details from "../assets/DETAILS.png";
-import { fontLightColor, blue } from "../utlis/colors.jsx";
+import { fontLightColor, blue } from "../utlis/Colors.jsx";
 
 export default function Details() {
   return (
     <Section id="details" className="defaultMargin">
-
       <div className="square"></div>
       <div className="info">
         <div className="image">
@@ -62,7 +61,7 @@ const Section = styled.div`
     img {
       margin-bottom: 4rem;
     }
-    
+
     .details {
       .border-top {
         border-top: 0.1rem solid ${fontLightColor};

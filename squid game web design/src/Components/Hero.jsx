@@ -3,8 +3,7 @@ import styled from "styled-components";
 import HeroImage from "../assets/HERO.jpg";
 import Squid from "../assets/SQUID.png";
 import Game from "../assets/GAME.png";
-import { backgroundColor } from "../utlis/colors.jsx";
-
+import { backgroundColor } from "../utlis/Colors.jsx";
 
 export default function Hero() {
   return (

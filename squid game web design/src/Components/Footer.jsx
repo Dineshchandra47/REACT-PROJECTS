@@ -1,15 +1,22 @@
 import React from "react";
 import styled from "styled-components";
-import { fontLightColor } from "../utlis/colors.jsx";
+import { fontLightColor } from "../utlis/Colors.jsx";
 export default function Footer() {
   return (
     <FooterContainer className="defaultMargin">
       <ul>
         <li>
-          <a href="https://screencrush.com/unanswered-squid-game-finale-questions-list/" target="__blank">FAQ</a>
+          <a
+            href="https://screencrush.com/unanswered-squid-game-finale-questions-list/"
+            target="__blank"
+          >
+            FAQ
+          </a>
         </li>
         <li>
-          <a href="https://en.wikipedia.org/wiki/Squid_Game" target="__blank">Help Centre</a>
+          <a href="https://en.wikipedia.org/wiki/Squid_Game" target="__blank">
+            Help Centre
+          </a>
         </li>
         <li>
           <a href="#">Account</a>
@@ -24,10 +31,20 @@ export default function Footer() {
           <a href="#">Jobs</a>
         </li>
         <li>
-          <a href="https://ww3.yesmoviesfree.live/tv-series/watch-squid-game" target="__blank">Ways to Watch</a>
+          <a
+            href="https://ww3.yesmoviesfree.live/tv-series/watch-squid-game"
+            target="__blank"
+          >
+            Ways to Watch
+          </a>
         </li>
         <li>
-          <a href="https://www.desidime.com/news/best-netflix-free-alternatives-websites-watch-netflix-series-for-free" target="__blank">Terms of Use</a>
+          <a
+            href="https://www.desidime.com/news/best-netflix-free-alternatives-websites-watch-netflix-series-for-free"
+            target="__blank"
+          >
+            Terms of Use
+          </a>
         </li>
         <li>
           <a href="#">Privacy</a>
@@ -48,7 +65,9 @@ export default function Footer() {
           <a href="#">Legal Notices</a>
         </li>
         <li>
-          <a href="https://www.netflix.com/in/title/81040344"  target="__blank">Only on Netflix</a>
+          <a href="https://www.netflix.com/in/title/81040344" target="__blank">
+            Only on Netflix
+          </a>
         </li>
       </ul>
     </FooterContainer>

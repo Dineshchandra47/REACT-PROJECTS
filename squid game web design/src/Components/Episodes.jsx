@@ -10,7 +10,7 @@ import Episode7 from "../assets/EPISODE7.jpg";
 import Episode8 from "../assets/EPISODE8.jpg";
 import Episode9 from "../assets/EPISODE9.jpg";
 import EpisodesImage from "../assets/EPISODES.png";
-import { blue } from "../utlis/colors.jsx";
+import { blue } from "../utlis/Colors.jsx";
 
 export default function Episodes() {
   const episodesData = [
@@ -71,7 +71,6 @@ export default function Episodes() {
     },
   ];
 
-
   const getEpisodeMarkdown = (data, number) => {
     return (
       <div className={`episode episode-${number}`}>
@@ -83,7 +82,6 @@ export default function Episodes() {
       </div>
     );
   };
-
 
   return (
     <Section id="episodes" className="defaultMargin">
@@ -196,7 +194,7 @@ const Section = styled.div`
       }
     }
   }
-  
+
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     margin: 0 5vw;
     .title {
