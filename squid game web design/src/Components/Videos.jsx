@@ -5,7 +5,9 @@ import Video1 from "../assets/VIDEO1.jpg";
 import Video2 from "../assets/VIDEO2.jpg";
 import { blue, pink, fontLightColor } from "../utlis/Colors.jsx";
 import { FaPlay } from "react-icons/fa";
+
 export default function Videos() {
+  
   return (
     <Section className="defaultMargin" id="videos">
       <div className="title">
