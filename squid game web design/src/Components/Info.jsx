@@ -3,7 +3,9 @@ import styled from "styled-components";
 import { blue } from "../utlis/Colors.jsx";
 
 export default function Info() {
+
   return (
+    
     <Section id="info" className="defaultMargin">
       <div className="square"></div>
       <div className="info">
