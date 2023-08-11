@@ -5,7 +5,10 @@ import Squid from "../assets/SQUID.png";
 import Game from "../assets/GAME.png";
 import { backgroundColor } from "../utlis/Colors.jsx";
 
+
 export default function Hero() {
+
+
   return (
     <Section id="hero">
       <div className="navbar">
