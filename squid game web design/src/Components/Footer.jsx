@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { fontLightColor } from "../utlis/Colors.jsx";
 
+
 export default function Footer() {
   
   return (
