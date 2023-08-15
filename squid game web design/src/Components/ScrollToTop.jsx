@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 
 const Scroll = () => {
-  const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
 
   const goToBtn = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

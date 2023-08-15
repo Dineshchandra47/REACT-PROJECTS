@@ -8,7 +8,6 @@ import { backgroundColor } from "../utlis/Colors.jsx";
 
 export default function Hero() {
 
-
   return (
     <Section id="hero">
       <div className="navbar">
