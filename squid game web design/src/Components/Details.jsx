@@ -3,7 +3,6 @@ import styled from "styled-components";
 import details from "../assets/DETAILS.png";
 import { fontLightColor, blue } from "../utlis/Colors.jsx";
 
-
 export default function Details() {
   
   return (
