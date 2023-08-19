@@ -4,7 +4,6 @@ import details from "../assets/DETAILS.png";
 import { fontLightColor, blue } from "../utlis/Colors.jsx";
 
 export default function Details() {
-  
   return (
     <Section id="details" className="defaultMargin">
       <div className="square"></div>
